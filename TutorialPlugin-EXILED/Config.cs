@@ -14,7 +14,7 @@ namespace TutorialPlugin_EXILED
         public string LeftMessage { get; set; } = "{player} has left the server.";
 
         [Description("Sets the message for when the round starts.")]
-        public string RoundStaratedMessage { get; set; } = "Get ready to rumble!";
+        public string RoundStaratedMessage { get; set; } = "Get ready to play!";
         
         [Description("Sets a nessage for when someone triggers a trap.")]
         public string BoobyTrapMessage { get; set; } = "You have activated my trap card!";
